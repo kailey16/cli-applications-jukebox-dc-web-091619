@@ -19,5 +19,5 @@ def help
 end
 
 def songs
-  songs.
+  songs.each_with_index
 end
