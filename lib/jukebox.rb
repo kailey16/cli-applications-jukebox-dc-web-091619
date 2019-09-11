@@ -41,5 +41,14 @@ def run
   command = gets.strip
   loop do 
    if command == "list"
-     
+     list
+   if command == "play"
+     play
+   if command == "help"
+     help
+   end
+   break if command == "exit"
+    exit_jukebox
+   end
+  end
 end
