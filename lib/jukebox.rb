@@ -21,3 +21,7 @@ end
 def songs
   songs.each_with_index
 end
+
+def play
+  puts ""
+end
