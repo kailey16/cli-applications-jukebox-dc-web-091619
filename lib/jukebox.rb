@@ -18,7 +18,7 @@ def help
   puts "- exit : exits this program"
 end
 
-def songs
+def list
   songs.each_with_index
 end
 
@@ -37,5 +37,9 @@ def exit_jukebox
 end
 
 def run 
-  puts ""
+  puts "Please enter a command:"
+  command = gets.strip
+  loop do 
+   if command == "list"
+     
 end
