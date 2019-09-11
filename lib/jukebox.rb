@@ -25,5 +25,5 @@ end
 def play
   puts "Please enter a song name or number:"
   gets.strip
-  puts ""
+  puts "Playing <song name>"
 end
