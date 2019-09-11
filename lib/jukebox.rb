@@ -20,7 +20,7 @@ end
 
 def list
   songs.each_with_index |song, i|
-   puts "#{i+1}.song"
+   puts "#{i+1}. song"
 end
 
 def play
